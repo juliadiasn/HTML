@@ -15,3 +15,13 @@ A parte visual da aplicação, ou seja, a parte a qual o usuário interage.
 - Uma linguagem de marcação é uma linguagem que possuem símbolos especiais que indicam **metainformações.**
 - Elas referem-se à forma, hierarquia, ordem e/ou semântica dos elementos da página.
 - Atualmente está na versão 5 (2014).
+
+#### Resumo
+- Marcação -> **tags**
+- **Tags** HTML:
+    - Delimitadas por `<` e `>`
+    - Usadas para descrever o **elemento** que será adicionado;
+    - Exemplos de tags HTML:
+        - `<button`
+        - `<p>`
+        - Dentre outras
