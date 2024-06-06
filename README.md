@@ -33,8 +33,8 @@ A parte visual da aplicação, ou seja, a parte a qual o usuário interage.
     - Tag de fechamento.
 
     `<p>This is a paragraph.</p>`
-        - < > - opening tag
-        - This a paragraph - Conteúdo
+        - < > - opening tag\
+        - This a paragraph - Conteúdo\
         - </ > - closing tag
 
 - Possui um tipo (botão, parágrafo, imagem, lista, tabela)
