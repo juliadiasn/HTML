@@ -2,7 +2,7 @@
 
 ## A base da WEB
 ### Documentação
-[MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)\
 [W3Schools - HTML](https://www.w3schools.com/tags/)
 
 ### Front-end
