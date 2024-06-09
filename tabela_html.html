@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tabelas</title>
+    </head>
+    <body>
+        <section id="matricula">
+            <h2>Tabela de alunos</h2>
+
+            <!-- table - tabela -->
+            <table border="1">
+                <!-- thead - semantico; cabeçalho da tabela (titulos das colunas) -->
+                <thead>
+                    <!-- th - cabeçalho -->
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Matrícula</th>
+                </thead>
+                <!-- tbody - semantico; conteudo da tabela -->
+                <tbody>
+                    <!-- tr - linha da tabela (row) -->
+                    <tr>
+                        <!-- td - dados da linha -->
+                        <td>Carol Danvers</td>
+                        <td>carol.danvers@email.com</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Peter Parker</td>
+                        <td>peter.parker@email.com</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Tony Stark</td>
+                        <td>tony.stark@email.com</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="finance">
+            <h2>Tabela de Controle Financeiro</h2>
+
+            <table border="1">
+                <thead>
+                    <th>Data</th>
+                    <th>Tipo</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <!-- Mesclar células -->
+
+                        <td rowspan="2">15/06/2022</td>
+
+                        <!-- Mesclar colunas -->
+                        <td colspan="2">Despesa</td>
+                        <!-- <td>Almoço</td>  -- a tr ja tem quatro td, ou seja, a tabela vai "empurrar para o lado" -->
+                        <td>R$ 35,00</td>
+                    </tr>
+                    <tr>
+                        <!-- 
+                        <td>15/06/2022</td> -- a tr ja tem quatro td, ou seja, a tabela vai "empurrar para o lado" -->
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>R$ 3.768,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </body>
+</html>
