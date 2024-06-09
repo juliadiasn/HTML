@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulario</title>
+    </head>
+    <body>
+        <main>
+            <h1>Formulário</h1>
+            <hr />
+
+            <!-- get - obter(LIMITADO)
+            post - HTTP (nao estuda) 
+            -->
+            <form action="" method="get">
+                <div>
+                    <!-- label - "legenda do input" -->
+                    <label for="texto">Nome:</label>
+                    <!-- input - entrada; 
+                     type - tipo;
+                     name - nome do controle, enviado junto aos dados do form;
+                     id - unico - para o "for" do laber;
+                     placeholder - texto de sugestão; 
+                     value - defina o valor que vai estar dentro do input -->
+
+                    <input type="text" id="texto" name="" />
+                    <!-- <input type="text" id="texto" placeholder="Informe seu nome" /> -->
+                    <!-- <input type="text" id="texto" value="Julia"/> -->
+                </div>
+                <br />
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" />
+                </div>
+                <br />
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" />
+                </div>
+                <br />
+                <div>
+                    <label for="data">Data Nascimento:</label>
+                    <input type="date" id="data" name="data-nascimento" />
+                </div>
+                <br />
+                <div>
+                    <label for="hora">Data Nascimento:</label>
+                    <input type="time" id="hora" name="horario" />
+                </div>
+                <br />
+                <div>
+                    <label for="number">Numero:</label>
+                    <input type="number" id="numero" name="numero" />
+                </div>
+                <br />
+                <div>
+                    <label for="arquivo">Escolher arquivo:</label>
+                    <input type="file" id="arquivp" name="arquivp" />
+                </div>
+                <br />
+                <div>
+                    <label for="url">Site:</label>
+                    <input type="url" id="url" name="url" />
+                </div>
+                <br />
+                <div>
+                    <label for="color">Cor:</label>
+                    <input type="color" id="color" name="color" />
+                </div>
+                <br />
+                <div>
+                    <label for="range">Range:</label>
+                    <input type="range" id="range" name="range" value="100" max="200" min="1" />
+                </div>
+                <br />
+                <div>
+                    <label for="checkbox">Checkbox:</label>
+                    <input type="checkbox" id="checkbox" name="checkbox" />
+                </div>
+                <br />
+
+                <div>
+                    <label for="radio">Radio:</label>
+                    <input type="radio" id="radio" name="radio" />
+                </div>
+
+                <br />
+
+                <textarea name="bio" id="bio"></textarea>
+                <br />
+                <br />
+
+                <select name="select" id="select">
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="tranferencia">Transferência</option>
+                </select>
+
+                <br />
+                <br />
+                <div>
+                    <label for="Reset">Reset:</label>
+                    <input type="Reset" id="Reset" name="Reset" value="Limpar" />
+                </div>
+                <br />
+                <div>
+                    <label for="Submit">Submit:</label>
+                    <input type="submit" id="Submit" name="Submit" value="Enviar" />
+                </div>
+                <br />
+            </form>
+        </main>
+    </body>
+</html>
