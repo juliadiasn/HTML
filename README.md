@@ -1,6 +1,9 @@
 # HTML - Ada tech
 
 ## A base da WEB
+### Documentação
+[MDN - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[W3Schools - HTML](https://www.w3schools.com/tags/)
 
 ### Front-end
 A parte visual da aplicação, ou seja, a parte a qual o usuário interage.
